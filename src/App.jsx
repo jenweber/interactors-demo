@@ -7,13 +7,13 @@ function App() {
     <div className="App">
       {!isSignedIn &&
         <button onClick={() => setIsSignedIn(true)}>
-          Sign in
+          Sign In
         </button>
       }
 
       {isSignedIn &&
         <button onClick={() => setIsSignedIn(false)}>
-          Sign out
+          Log Out
         </button>
       }
     </div>
